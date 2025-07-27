@@ -3,15 +3,15 @@
    <description></description>
    <name>a_CURA Healthcare_menu-toggle</name>
    <tag></tag>
-   <elementGuidId>0227f849-4ced-437a-b869-1e5af02de5a7</elementGuidId>
+   <elementGuidId>9cf00715-72d6-4813-9c7e-e64da5bdf4f7</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menu-toggle']</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>#menu-toggle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu-toggle']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>01044106-d405-4b8c-a641-6b00490ae697</webElementGuid>
+      <webElementGuid>41c4b2fa-d733-4fff-81fc-1c252747e1cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>menu-toggle</value>
-      <webElementGuid>6cee7a10-2bc7-42a1-a9c3-9a1924ef42b5</webElementGuid>
+      <webElementGuid>fe8c01af-1080-49ba-8215-33b71dce24f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>cfd6930b-8339-40fa-8096-40c6649b445f</webElementGuid>
+      <webElementGuid>6bdf6c4f-76b7-438e-b5a2-cbf9664aeaf2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-dark btn-lg toggle</value>
-      <webElementGuid>ff7a12f3-12d6-4fc9-951e-f6b95fd9a553</webElementGuid>
+      <webElementGuid>094b71a8-4a67-44ce-882e-219a7faf15bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu-toggle&quot;)</value>
-      <webElementGuid>23371aa8-5358-47b6-9a8b-2d5bc3b8c5f1</webElementGuid>
+      <webElementGuid>f1e1337f-58f0-4cef-9f7c-cb287cbe953e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='menu-toggle']</value>
-      <webElementGuid>f3f34cbb-6fd9-48da-9d04-efe648a1554f</webElementGuid>
+      <webElementGuid>90373a68-5311-4a3c-ae48-a8b73146abf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare'])[1]/preceding::a[2]</value>
-      <webElementGuid>0b1e08ee-c47c-41d5-95c7-4e5d2046be8c</webElementGuid>
+      <webElementGuid>70abfd33-6db2-44b6-88d9-dd07253c0ec7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::a[3]</value>
-      <webElementGuid>47d19ab7-4692-45cd-8e6f-f34fedbcfddd</webElementGuid>
+      <webElementGuid>b1b47924-73db-489c-8da0-cf923d4163e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '#')]</value>
-      <webElementGuid>0294f511-4419-4b33-b386-4bdc69169143</webElementGuid>
+      <webElementGuid>a4ae6a1d-96f4-4788-980b-051d9efcade9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>493e3ac6-d7f1-4f75-9713-f42d9221eb0d</webElementGuid>
+      <webElementGuid>7456f2c8-9d93-4bdb-a805-564968fdd517</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'menu-toggle' and @href = '#']</value>
-      <webElementGuid>db7f0a22-d354-4dc8-a73c-856829baae3a</webElementGuid>
+      <webElementGuid>66f90d76-1be3-4c53-b42d-e570680037c3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

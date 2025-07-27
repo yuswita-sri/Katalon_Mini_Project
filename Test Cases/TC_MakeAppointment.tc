@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Login</name>
+   <name>TC_MakeAppointment</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>9e8692e2-e4b5-4d94-a0b4-98286a5b4986</testCaseGuid>
+   <testCaseGuid>07242fdc-0583-40ef-a453-aab01d9d8c8a</testCaseGuid>
 </TestCaseEntity>

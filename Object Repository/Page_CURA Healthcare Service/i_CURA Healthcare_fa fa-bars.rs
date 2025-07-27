@@ -3,15 +3,15 @@
    <description></description>
    <name>i_CURA Healthcare_fa fa-bars</name>
    <tag></tag>
-   <elementGuidId>046212ed-51a4-482e-ba3d-01dd0b556bfe</elementGuidId>
+   <elementGuidId>c4392c55-9845-453d-aafc-27a4caf49c1d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//a[@id='menu-toggle']/i</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>i.fa.fa-bars</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='menu-toggle']/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>284b4ff9-573c-4e80-8b7f-712c917d181a</webElementGuid>
+      <webElementGuid>3426a06b-7eb9-4623-af93-6eb059c14eae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-bars</value>
-      <webElementGuid>d50ea483-cf45-468f-9b28-5bffa58d3ded</webElementGuid>
+      <webElementGuid>ba0ee6ba-889a-429d-898e-17bfc0472b00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;menu-toggle&quot;)/i[@class=&quot;fa fa-bars&quot;]</value>
-      <webElementGuid>3704534d-3fc0-4540-981d-bd573f471d63</webElementGuid>
+      <webElementGuid>9ede03f2-b740-4863-b0e3-413ab5bbe189</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//a[@id='menu-toggle']/i</value>
-      <webElementGuid>1ed59e3b-deb6-4307-9db8-17f698fcd80e</webElementGuid>
+      <webElementGuid>7ddaf42d-4a15-4268-adcf-89bca3125f85</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//i</value>
-      <webElementGuid>bfb93e13-c4fc-4f6d-a43f-4a1466b573d2</webElementGuid>
+      <webElementGuid>c86b94a7-ca21-4184-8478-15e62701163d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

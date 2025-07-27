@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Visit Date (Required)_glyphicon glyphi_cada34</name>
    <tag></tag>
-   <elementGuidId>f09d4531-4097-419f-90fa-b16668c2f502</elementGuidId>
+   <elementGuidId>ecc340ef-241e-4682-87f6-642a7bc797a8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//section[@id='appointment']/div/div/form/div[4]/div/div/div/span</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>span.glyphicon.glyphicon-calendar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[@id='appointment']/div/div/form/div[4]/div/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>33233864-43ef-4720-a3a4-bd31c293ffbe</webElementGuid>
+      <webElementGuid>9bce54a7-fc73-427c-852a-2b90e3bdaae1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>glyphicon glyphicon-calendar</value>
-      <webElementGuid>bb490199-955f-4cf2-9f17-b0fac6bb3cab</webElementGuid>
+      <webElementGuid>a90d403f-a97e-40df-9392-44a58290dc7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;input-group date&quot;]/div[@class=&quot;input-group-addon&quot;]/span[@class=&quot;glyphicon glyphicon-calendar&quot;]</value>
-      <webElementGuid>7a14380b-6e3e-4eb6-88d9-6dc77b4ec9d6</webElementGuid>
+      <webElementGuid>2afd5235-33c8-4f92-8375-f99f11c81cc3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='appointment']/div/div/form/div[4]/div/div/div/span</value>
-      <webElementGuid>e976d56b-241d-4bc2-8871-8a948598cd2c</webElementGuid>
+      <webElementGuid>307b8a64-476c-49e4-a595-35450265d271</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span</value>
-      <webElementGuid>cbe9808f-12d7-443e-a2fe-7cd3499d05df</webElementGuid>
+      <webElementGuid>74792f4e-45aa-4afa-a96e-daffd1c1a5b8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
