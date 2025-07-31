@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Visit Date (Required)_glyphicon glyphi_cada34</name>
+   <name>visit date</name>
    <tag></tag>
    <elementGuidId>ecc340ef-241e-4682-87f6-642a7bc797a8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.glyphicon.glyphicon-calendar</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//section[@id='appointment']/div/div/form/div[4]/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.glyphicon.glyphicon-calendar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

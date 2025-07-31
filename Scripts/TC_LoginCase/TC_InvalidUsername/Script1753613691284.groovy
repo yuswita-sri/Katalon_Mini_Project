@@ -27,9 +27,9 @@ WebUI.takeScreenshot()
 //saved on screenshots folder
 WebUI.takeScreenshot(System.getProperty("user.dir") + '/Screenshots/HomePage.png')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Humberger_CURA Healthcare_menu'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Login'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/humberger_link_Login'))
 
 //saved on reports folder
 WebUI.takeScreenshot()

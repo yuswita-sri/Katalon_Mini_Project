@@ -32,10 +32,10 @@ WebUI.verifyMatch(WebUI.getWindowTitle(), 'CURA Healthcare Service', false)
 WebUI.takeScreenshot()
 WebUI.takeScreenshot(System.getProperty("user.dir") + 'Screenshots/valid.png')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Humberger_CURA Healthcare_menu'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/humberger_link_Logout'), 10)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/humberger_link_Logout'))
 
 WebUI.closeBrowser()
