@@ -15,8 +15,8 @@ Automation Practice, focusing on scripting logic using Groovy
 3. Login with valid username & invalid password (not encrypted)
 
 ## How to run this test case
-- open Katalon studio
-- import this project
+- Open Katalon studio
+- Import this project
 - Make sure all the required test objects are available in the Object Repository
 - Run Test Suites "LoginWithMultipleData" using Chrome
 
