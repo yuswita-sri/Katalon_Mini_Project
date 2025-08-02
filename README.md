@@ -20,4 +20,6 @@ Automation test project using Katalon Studio on the CURA Healthcare demo site. W
 
 - `docs/` → Daily Documentation
 - `Test Cases/` → Default Folder from Katalon
-- `Screenshots` → Assets
+- `Screenshots` → Asset
+
+Made with ☕ by Yuswita
