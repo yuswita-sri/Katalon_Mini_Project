@@ -1,23 +1,23 @@
-# :bookmark_tabs: Day 3 - Basic Scripting Login
+# Day 3 - Basic Scripting Login
 
-## :white_check_mark: Objective
+## Objective
 
-Automation Practice, focusing on scripting logic using Groovy, website under test : [CURA Healthcare Service](https://katalon-demo-cura.herokuapp.com/)
+Automation Practice, focusing on scripting logic using Groovy
 
-## :wrench: Tools
+## Tools
 - Katalon Studio
 - WebUI (Groovy)
 - Chrome Browser
 
-## :test_tube: Test Scenarios
+## Test Scenarios
 1. Login with encrypted password (valid credentials)
 2. Login with invalid username & valid encrypted password
 3. Login with valid username & invalid password (not encrypted)
 
-## :rocket: How to run this test case
+## How to run this test case
 - open Katalon studio
 - import this project
 - make sure all the test objects that needed available in Object Repository
 - Run Test Suites "LoginWithMultipleData" using Chrome
 
-Made with :coffee: by Yuswita
+
