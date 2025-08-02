@@ -1,22 +1,23 @@
-# Day 1 - Login & Appointment Test
+# 📅Day 1 - Login & Appointment Test
 
-## Objective
+## 🔎Objective
 
 Automate login flow, navigate to appointment page and perform logout using Katalon Studio.
 
-## Tools
+## 🔧Tools
 - Katalon Studio
 - WebUI (Groovy)
-- Firefox Browser
+- Chrome Browser
 
-## Test Scenarios
+## 🧪Test Scenarios
 1. Login with valid credentials
 2. Verify succesful navigation to "Make Appointment"
 3. Logout
 
-## How to run this test case
-- open Katalon studio
-- import this project
-- Run Test Case "TC_Login" using Firefox
+## 🚀How to run this test case
+- Open Katalon studio
+- Import this project
+- Make sure all the required test objects are available in the Object Repository
+- Run Test Case "TC_Login" using Chrome
 
 
