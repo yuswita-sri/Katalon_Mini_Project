@@ -17,7 +17,7 @@ Automation Practice, focusing on scripting logic using Groovy
 ## How to run this test case
 - open Katalon studio
 - import this project
-- make sure all the test objects that needed available in Object Repository
+- Make sure all the required test objects are available in the Object Repository
 - Run Test Suites "LoginWithMultipleData" using Chrome
 
 
