@@ -1,15 +1,15 @@
-# Day 2 - Encrypt Password & Validate Error Login
+# 📅Day 2 - Encrypt Password & Validate Error Login
 
-## Objective
+## 🔎Objective
 
 Automate Negative login and encrypt password
 
-## Tools
+## 🔧Tools
 - Katalon Studio
 - WebUI (Groovy)
 - Chrome Browser
 
-## Test Scenarios
+## 🧪Test Scenarios
 1. Encrypted password
 2. Login with invalid username & valid password
 3. Login with valid username & invalid password
@@ -17,7 +17,7 @@ Automate Negative login and encrypt password
 5. Login with valid username & password
 
 
-## How to run this test case
+## 🚀How to run this test case
 - Open Katalon studio
 - Import this project
 - Make sure all the required test objects are available in the Object Repository
