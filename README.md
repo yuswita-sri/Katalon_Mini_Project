@@ -1,13 +1,13 @@
-# CURA Katalon Automation Project
+# 🔥 CURA Katalon Automation Project
 
-Automation test project using Katalon Studio on the CURA Healthcare demo site.
+Automation test project using Katalon Studio on the CURA Healthcare demo site. Website under test : [CURA Healthcare Service](https://katalon-demo-cura.herokuapp.com/)
 
-## Tools
+## 🔧 Tools
 - Katalon Studio
 - WebUI (Groovy)
-- Firefox Browser
+- Chrome Browser
 
-## Test Coverage Summary
+## 🧪 Test Coverage Summary
 
 | Day | Focus | Scenarios |
 |-----|-------|-----------|
@@ -16,7 +16,7 @@ Automation test project using Katalon Studio on the CURA Healthcare demo site.
 | [Day 3](docs/day3-basic-scripting.md) | Scripting Logic using Groovy | Basic scripting, control flow structures, parameterize input |
 
 
-## Folder Structure
+## 📂 Folder Structure
 
 - `docs/` → Daily Documentation
 - `Test Cases/` → Default Folder from Katalon
