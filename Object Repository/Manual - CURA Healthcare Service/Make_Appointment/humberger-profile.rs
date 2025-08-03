@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>humberger-profile</name>
+   <tag></tag>
+   <elementGuidId>0467e357-8da9-473d-afcd-3a0d9c0130d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;sidebar-wrapper&quot;]/ul/li[4]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;sidebar-wrapper&quot;]/ul/li[4]/a</value>
+      <webElementGuid>19ff6b81-3b1e-4c8f-8559-875cdfa0b015</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

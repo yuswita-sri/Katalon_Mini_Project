@@ -18,24 +18,24 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/Record - CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Object Repository/Record - CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/Record - CURA Healthcare Service/button_Login'))
 
 
 //Verifikasi
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/Title_Make_Appointment'), 'Make Appointment')
+WebUI.verifyElementText(findTestObject('Object Repository/Record - CURA Healthcare Service/Title_Make_Appointment'), 'Make Appointment')
 WebUI.verifyMatch(WebUI.getWindowTitle(), 'CURA Healthcare Service', false)
 
 WebUI.takeScreenshot()
 WebUI.takeScreenshot(System.getProperty("user.dir") + 'Screenshots/valid.png')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Humberger_CURA Healthcare_menu'))
+WebUI.click(findTestObject('Object Repository/Record - CURA Healthcare Service/Humberger_CURA Healthcare_menu'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/humberger_link_Logout'), 10)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Record - CURA Healthcare Service/humberger_link_Logout'), 10)
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/humberger_link_Logout'))
+WebUI.click(findTestObject('Object Repository/Record - CURA Healthcare Service/humberger_link_Logout'))
 
 WebUI.closeBrowser()

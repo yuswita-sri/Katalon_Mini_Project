@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>humberger-logout</name>
+   <tag></tag>
+   <elementGuidId>bd86bef3-a20b-4c62-a76c-879d4a94f862</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;sidebar-wrapper&quot;]/ul/li[5]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;sidebar-wrapper&quot;]/ul/li[5]/a</value>
+      <webElementGuid>ab3901ec-e30a-4b89-bcde-f7b8e651e889</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

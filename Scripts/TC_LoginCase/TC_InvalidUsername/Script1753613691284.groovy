@@ -27,9 +27,9 @@ WebUI.takeScreenshot()
 //saved on screenshots folder
 WebUI.takeScreenshot(System.getProperty("user.dir") + '/Screenshots/HomePage.png')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Humberger_CURA Healthcare_menu'))
+WebUI.click(findTestObject('Object Repository/Record - CURA Healthcare Service/Humberger_CURA Healthcare_menu'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/humberger_link_Login'))
+WebUI.click(findTestObject('Object Repository/Record - CURA Healthcare Service/humberger_link_Login'))
 
 //saved on reports folder
 WebUI.takeScreenshot()
@@ -38,11 +38,11 @@ WebUI.takeScreenshot()
 WebUI.takeScreenshot(System.getProperty("user.dir") + '/Screenshots/LoginPage.png')
 
 // Case 1 Username Salah
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'wrongUser')
+WebUI.setText(findTestObject('Object Repository/Record - CURA Healthcare Service/input_Username_username'), 'wrongUser')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Object Repository/Record - CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/Record - CURA Healthcare Service/button_Login'))
 
 //WebUI.verifyTextPresent('Login Failed! wrong username', false)
 
@@ -56,5 +56,5 @@ WebUI.delay(2)
 
 WebUI.refresh()
 
-//WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+//WebUI.setEncryptedText(findTestObject('Record - CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_After_Logout</name>
+   <tag></tag>
+   <elementGuidId>7aa8f14a-60af-4334-8514-fff4272d9dcf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;top&quot;]/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;top&quot;]/div/h1</value>
+      <webElementGuid>0d82e6f7-ee60-4277-9200-c50f4c7705d4</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

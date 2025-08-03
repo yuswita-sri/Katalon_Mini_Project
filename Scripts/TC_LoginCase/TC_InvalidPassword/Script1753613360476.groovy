@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/Record - CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'SvcMtOshXyJ0sHbfjdtQ6w==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Record - CURA Healthcare Service/input_Password_password'), 'SvcMtOshXyJ0sHbfjdtQ6w==')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+WebUI.click(findTestObject('Object Repository/Record - CURA Healthcare Service/button_Login'))
 
 //saved on reports folder
 WebUI.takeScreenshot()

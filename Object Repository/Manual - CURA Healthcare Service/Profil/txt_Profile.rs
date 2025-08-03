@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_Profile</name>
+   <tag></tag>
+   <elementGuidId>85a710ce-b4d6-4187-a406-3a8b99ebc554</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;profile&quot;]/div/div/div/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;profile&quot;]/div/div/div/h2</value>
+      <webElementGuid>cf178569-a2da-43f1-a237-27cdae9225fc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

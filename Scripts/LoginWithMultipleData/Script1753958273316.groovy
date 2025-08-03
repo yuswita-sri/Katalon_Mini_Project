@@ -27,24 +27,24 @@ for (int i = 0; i < accounts.size(); i++) {
 
     WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-    WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/Humberger_CURA Healthcare_menu'))
+    WebUI.click(findTestObject('Object Repository/Record - CURA Healthcare Service/Humberger_CURA Healthcare_menu'))
 
-    WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/humberger_link_Login'))
+    WebUI.click(findTestObject('Object Repository/Record - CURA Healthcare Service/humberger_link_Login'))
 
-    WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), accounts[i].username)
+    WebUI.setText(findTestObject('Object Repository/Record - CURA Healthcare Service/input_Username_username'), accounts[i].username)
 
     if (accounts[i].encrypted) {
-        WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 
+        WebUI.setEncryptedText(findTestObject('Object Repository/Record - CURA Healthcare Service/input_Password_password'), 
             accounts[i].password)
     } else {
-        WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), accounts[
+        WebUI.setText(findTestObject('Object Repository/Record - CURA Healthcare Service/input_Password_password'), accounts[
             i].password)
     }
     
-    WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
+    WebUI.click(findTestObject('Object Repository/Record - CURA Healthcare Service/button_Login'))
 
     //	Verifikasi hasil login
-    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/Title_Make_Appointment'), 
+    if (WebUI.verifyElementPresent(findTestObject('Object Repository/Record - CURA Healthcare Service/Title_Make_Appointment'), 
         5, FailureHandling.OPTIONAL)) {
         println('Login berhasil untuk akun : ' + accounts[i].username) //		ambil eror message
     } else {
@@ -66,5 +66,5 @@ for (int i = 0; i < accounts.size(); i++) {
     WebUI.closeBrowser()
 }
 
-//WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+//WebUI.setEncryptedText(findTestObject('Record - CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 

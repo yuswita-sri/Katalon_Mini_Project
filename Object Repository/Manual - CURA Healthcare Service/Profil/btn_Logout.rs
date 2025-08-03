@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Logout</name>
+   <tag></tag>
+   <elementGuidId>a8d5dfeb-b991-49c9-8a38-3a94d6d04078</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;profile&quot;]/div/div/div/p[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;profile&quot;]/div/div/div/p[2]/a</value>
+      <webElementGuid>856c8b74-4cd7-4d5e-884c-32f603734809</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
